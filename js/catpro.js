@@ -2,38 +2,32 @@ $(document).ready(function () {
 
     var model = {
     	catCurrent : null,
-    cats:[
-    	  {
+    cats:[{
     		 catname : 'redcat',
     		 catId : 0,
     		 count : 0,
     		 urle : 'images/catimage.jpg',
-    	},
-      {
-      	 catname : 'blackcat',
-      	 catId : 1,
-      	 count : 0,
-      	 urle : 'images/catimage2.jpg',
-      },
-      {
+    	}, {
+      	   	catname : 'blackcat',
+      	 	catId : 1,
+      	 	count : 0,
+      	 	urle : 'images/catimage2.jpg',
+      }, {
       	 catname :'bluecat',
       	 catId : 2,
       	 count : 0,
       	urle : 'images/catimage3.jpg',
-      },
-      {
+      }, {
       	 catname :'pinkcat',
       	 catId : 3,
       	 count : 0,
       	 urle : 'images/catimage4.jpg',
-      },
-      {
+      }, {
       	 catname :'whitecat',
       	 catId : 4,
       	 count : 0,
       	 urle : 'images/catimage5.jpg',
-      }
-	]
+      }]
     };
 
     var octopus = {
